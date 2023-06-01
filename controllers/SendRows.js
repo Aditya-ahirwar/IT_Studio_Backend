@@ -32,7 +32,7 @@ const SendRows = (req, res) => {
 
     const mailOptions = {
       from: process.env.Email,
-      to: 'adityaahirwar3@gmail.com',
+      to: 'info@redpositive.in',
       subject: "From React JS Assignment",
       text: message,
     };
